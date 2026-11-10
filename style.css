@@ -27,10 +27,10 @@ header{
     font-weight: 500;
 }
 .n1{
-color:#12aa1f
+color:#28a004
 }
 .n2{
-color: rgb(97, 2, 221);
+color: rgba(9, 5, 82, 0.723);
 }
 a{
     font-weight: 600;
@@ -38,7 +38,7 @@ a{
     line-height: 28px;
     margin: 0 20px 0 0 ;
     cursor:pointer;
-    color:rgb(73, 1, 133);
+    color:rgb(15, 15, 15);
     transition:opacity 0.2s;
     text-decoration: none
 }
@@ -50,11 +50,11 @@ opacity: 0.8;
     width: 130px;
     height:38px ;
     border-radius: 20px;
-    background-color: rgb(47, 0, 85);
+    background-color: rgb(137, 12, 240);
     border:none;
     font-size: 20px;
     font-weight: 600;
-    color:rgb(136, 255, 0);
+    color:rgb(247, 248, 245);
     transition:opacity 0.2s;
 }
 
@@ -85,7 +85,7 @@ main{
     width: 180px;
     height: 60px;
     cursor: pointer;
-    background: rgb(112, 9, 209);
+    background: rgb(44, 247, 3);
     border:none;
     border-radius: 30px;
     font-size: 26px;
@@ -102,10 +102,10 @@ opacity: 0,7;
 .titulo{
     font-size: 40px;
     font-weight: 900;;
-    color:rgb(24, 170, 36)
+    color:rgb(0, 0, 0)
 }
 .sub-titulo{
-    color:rgb(74, 0, 172);
+    color:rgb(13, 13, 14);
     line-height: 60px;
     font-size: 30px;
 }
@@ -113,7 +113,7 @@ opacity: 0,7;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color:rgb(52, 156, 31);
+    color:rgb(10, 9, 9);
     text-align: justify;
     margin: 20px 0 30px 0;
     max-width: 500px;
@@ -121,20 +121,41 @@ opacity: 0,7;
 }
 footer{
     text-align: center;
-    background-color: #5d15da;
+    background-color: #000000;
     padding: 80px 0 80px 0;
     font-size: 14px;
     margin-top: 100px;
-    color: f0f0f0;
-
+    color: #fffafa;
 }
 .img-dog{
     display: block;
     width: 70%;
-    height: 450px;
+    max-width: 700px;
+    height: 400px;
     object-fit: cover;
-    margin: 80px auto 0 auto;
+    margin: 10px auto 40px auto;
     border-radius: 15px;
+}
+.sobre{
+    padding: 50px 0;
+    background-color: #0a0a0a;
+}
+.video{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    max-width: 640px;
+    height: 350px;
+    border-radius: 15px;
+}
+.titulo-video{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fffafa;
+
+}
+.card-secao{
+    padding: 10px 0 100px 0;
 }
 .servicos{
     padding: 10px 0 100px 0;
@@ -157,7 +178,7 @@ font-weight: 500;
     transition:box-shadow 0.2s, transform 0.2s ;
 }
 .lista-servicos:hover{
-    box-shadow: 0 2px 5px rgba(23, 38, 170, 0.719);
+    box-shadow: 0 2px 5px rgba(30, 40, 134, 0.719);
     transform: translateY(-2px);
 }
 .img-card{
@@ -230,6 +251,14 @@ a{
 }
 .img-dog{
     max-height: 250px;
+}
+.video{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    max-width: 640px;
+    height: 250px;
+    border-radius: 15px;
 }
 .h2-servicos{
 font-weight: 400;
